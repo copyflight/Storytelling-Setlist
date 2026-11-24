@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 2026 Business Storytelling Set · Mixed by Todd E Jones · Copyflight</title>
+<meta name="description" content="The best business storytelling pieces of 2026, sequenced as a DJ set. Curated by Todd E Jones, Narrative Archeologist at Copyflight. Played by Marlowe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --plum:#3E2A4D; --plum-deep:#251733; --plum-room:#1E1229; --plum-panel:#332244; --plum-top:#4A3160;
+  --cream:#F7F3EC; --gold:#C9A87C; --gold-bright:#E2B76B; --ink:#2A1B3A;
+  --skin:#A9714B; --hair:#2B1E24; --rose:#B4655F; --rim:#9B7FC4;
+  --live:#7FD1A6; --warn:#E8A33D;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+*{scrollbar-width:thin;scrollbar-color:var(--gold) var(--plum-deep)}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:var(--plum-deep)}
+::-webkit-scrollbar-thumb{background:var(--plum-top);border:3px solid var(--plum-deep);border-radius:8px}
+::-webkit-scrollbar-thumb:hover{background:var(--gold)}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+body{background:var(--plum-deep);color:var(--cream);font-family:'Atkinson Hyperlegible',system-ui,sans-serif;font-size:19px;line-height:1.65}
+h1,h2,h3{font-family:'Fraunces',serif}
+a{color:var(--gold-bright);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+a:hover{color:var(--cream)}
+button{font-family:inherit;font-size:18px;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold-bright);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.top{display:flex;align-items:center;gap:14px;padding:18px clamp(18px,4vw,48px);border-bottom:2px solid var(--plum-panel);position:sticky;top:0;z-index:40;background:rgba(37,23,51,.94);backdrop-filter:blur(10px)}
+.top .wordmark{font-family:'Space Mono',monospace;font-weight:700;font-size:20px;letter-spacing:.28em}
+.top .setlabel{margin-left:auto;font-family:'Space Mono',monospace;font-size:18px;color:var(--gold);letter-spacing:.14em}
+
+.hero{position:relative;overflow:hidden;padding:clamp(48px,8vw,110px) clamp(18px,4vw,48px) clamp(56px,8vw,100px);
+  background:radial-gradient(900px 480px at 78% 18%, rgba(226,183,107,.15), transparent 60%),
+             radial-gradient(760px 460px at 10% 88%, rgba(155,127,196,.14), transparent 62%),
+             linear-gradient(160deg,#251733 0%,#2E1C3E 55%,#251733 100%)}
+.bokeh{position:absolute;inset:0;pointer-events:none}
+.bokeh i{position:absolute;border-radius:50%;background:var(--gold-bright);opacity:.22;filter:blur(1px);animation:drift 14s ease-in-out infinite}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+@media (prefers-reduced-motion: reduce){ .bokeh i{animation:none} }
+.hero-inner{position:relative;max-width:1100px;margin:0 auto}
+.eyebrow{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:18px}
+.hero h1{font-size:clamp(44px,7.2vw,86px);font-weight:900;line-height:1.04;max-width:14ch}
+.hero h1 em{font-style:italic;color:var(--gold-bright)}
+.hero .mixed{font-size:clamp(20px,2.4vw,26px);color:var(--gold);margin-top:20px;font-weight:700}
+.welcome{display:flex;gap:18px;align-items:flex-start;margin-top:34px;max-width:740px;background:var(--plum-panel);border-left:5px solid var(--gold);border-radius:0 16px 16px 0;padding:22px 26px}
+.avatar{flex:0 0 78px;width:78px;height:78px;border-radius:50%;background:var(--plum);border:2px solid var(--gold);overflow:hidden}
+.avatar svg,.avatar img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+.welcome .who{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:.18em;color:var(--gold);margin-bottom:6px}
+.welcome p{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(20px,2.2vw,24px);line-height:1.5}
+.needle{display:inline-block;margin-top:36px;background:var(--gold-bright);color:var(--ink);font-weight:700;font-size:clamp(20px,2.2vw,24px);padding:20px 42px;border:none;border-radius:999px;box-shadow:0 10px 34px rgba(226,183,107,.28);transition:transform .18s ease,box-shadow .18s ease;text-decoration:none}
+.needle:hover{transform:translateY(-3px);box-shadow:0 16px 44px rgba(226,183,107,.42)}
+@media (prefers-reduced-motion: reduce){ .needle{transition:none}.needle:hover{transform:none} }
+
+.booth{padding:clamp(36px,5vw,72px) clamp(18px,4vw,48px);max-width:1380px;margin:0 auto}
+.booth-head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+.booth-head h2{font-size:clamp(32px,4vw,52px);font-weight:900}
+.onair{font-family:'Space Mono',monospace;font-weight:700;font-size:18px;letter-spacing:.2em;padding:8px 18px;border-radius:999px;border:2px solid var(--gold);color:var(--gold);transition:all .3s ease}
+.onair.live{background:var(--gold-bright);color:var(--ink);border-color:var(--gold-bright);box-shadow:0 0 26px rgba(226,183,107,.55)}
+
+.musicbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:linear-gradient(120deg,var(--plum) 0%,var(--plum-top) 100%);border:2px solid var(--gold);border-radius:18px;padding:16px 18px;margin-bottom:22px}
+.filebtn{position:relative;overflow:hidden;background:var(--gold-bright);color:var(--ink);border:2px solid var(--gold-bright);border-radius:999px;padding:12px 22px;font-weight:700;min-height:50px;display:inline-flex;align-items:center}
+.filebtn input{position:absolute;inset:0;opacity:0;cursor:pointer;font-size:200px}
+.pillbtn{background:var(--plum-deep);color:var(--cream);border:2px solid var(--gold);border-radius:999px;padding:12px 22px;font-weight:700;min-height:50px}
+.pillbtn[aria-pressed="true"]{background:var(--live);color:var(--ink);border-color:var(--live)}
+.pillbtn.ghost{background:transparent}
+.musicbar .vol{display:flex;align-items:center;gap:10px;min-width:190px;flex:1}
+.musicbar .vol label{font-family:'Space Mono',monospace;font-size:18px;color:var(--gold);letter-spacing:.1em}
+.musicbar .vol input{flex:1;accent-color:var(--gold-bright);height:26px;min-width:110px}
+.musicstatus{flex-basis:100%;font-size:18px;color:var(--cream);opacity:.95}
+.musicstatus b{color:var(--gold-bright)}
+
+.booth-grid{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(300px,1fr);gap:28px;align-items:start}
+.stage{position:relative;border-radius:20px;overflow:hidden;background:var(--plum-room);border:2px solid var(--plum-panel);height:clamp(360px,46vw,560px);touch-action:pan-y;cursor:grab}
+.stage:active{cursor:grabbing}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
+#cBack{z-index:1}
+#cFront{z-index:3}
+.host2d{position:absolute;left:50%;bottom:34%;width:min(42%,300px);z-index:2;pointer-events:none;transform:translateX(-50%);transform-origin:bottom center;filter:drop-shadow(0 14px 30px rgba(0,0,0,.55))}
+.host2d svg,.host2d img{width:100%;height:auto;display:block}
+@keyframes hostnod{0%,100%{margin-bottom:0}50%{margin-bottom:5px}}
+.stage.playing .host2d{animation:hostnod 1s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){ .stage.playing .host2d{animation:none} }
+.stage .onair{position:absolute;top:16px;left:16px;z-index:9}
+.stagehint{position:absolute;top:16px;right:16px;z-index:9;font-family:'Space Mono',monospace;font-size:18px;color:var(--gold);background:rgba(30,18,41,.72);border:1px solid var(--plum-top);border-radius:999px;padding:6px 14px}
+.crossfade{position:absolute;left:0;right:0;bottom:0;z-index:10;padding:22px 24px;background:linear-gradient(transparent,rgba(30,18,41,.95) 40%);font-family:'Fraunces',serif;font-style:italic;font-size:clamp(19px,2vw,23px);opacity:0;pointer-events:none;transition:opacity .45s ease}
+.crossfade.show{opacity:1}
+.crossfade .tag{font-family:'Space Mono',monospace;font-style:normal;font-size:18px;letter-spacing:.2em;color:var(--gold-bright);display:block;margin-bottom:4px}
+@media (prefers-reduced-motion: reduce){ .crossfade{transition:none} }
+
+.fallback{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:30px;background:radial-gradient(640px 360px at 50% 26%,rgba(226,183,107,.14),transparent 66%),var(--plum-room)}
+.fallback.hidden{display:none}
+.fb-deck{position:relative;width:clamp(200px,26vw,290px);aspect-ratio:1;border-radius:50%;background:repeating-radial-gradient(circle at 50% 50%,#17121C 0 3px,#221a29 3px 5px);border:6px solid var(--plum-panel);box-shadow:0 14px 40px rgba(0,0,0,.55),0 0 60px rgba(226,183,107,.14);display:flex;align-items:center;justify-content:center}
+.fb-label{width:34%;aspect-ratio:1;border-radius:50%;background:var(--gold);color:var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-weight:700;font-size:clamp(24px,3vw,34px);border:4px solid var(--plum-deep)}
+.fb-arm{position:absolute;top:-8px;right:-14px;width:8px;height:56%;background:var(--gold);border-radius:6px;transform-origin:top center;transform:rotate(24deg)}
+.fb-fader{width:clamp(180px,24vw,250px);height:10px;background:var(--plum-panel);border-radius:6px;margin-top:22px;position:relative}
+.fb-fader i{position:absolute;top:-8px;width:22px;height:26px;background:var(--gold-bright);border-radius:5px;left:12%;transition:left .5s ease}
+@keyframes fbspin{to{transform:rotate(360deg)}}
+.stage.playing .fb-deck{animation:fbspin 1.9s linear infinite}
+@media (prefers-reduced-motion: reduce){ .stage.playing .fb-deck{animation:none}.fb-fader i{transition:none} }
+
+.transport{display:flex;align-items:center;gap:14px;margin:18px 0 14px;flex-wrap:wrap}
+.transport button{background:var(--plum-panel);color:var(--cream);border:2px solid var(--gold);border-radius:14px;padding:14px 24px;font-weight:700;min-height:52px}
+.transport button:hover{background:var(--plum-top)}
+.transport .playpause{background:var(--gold-bright);color:var(--ink);border-color:var(--gold-bright);min-width:132px}
+.transport .pos{font-family:'Space Mono',monospace;font-size:19px;color:var(--gold);margin-left:auto;letter-spacing:.14em}
+
+.panel{background:var(--plum);border:2px solid var(--plum-panel);border-radius:16px;padding:16px 18px;margin-bottom:18px}
+.panel h4{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:.16em;color:var(--gold);text-transform:uppercase;margin-bottom:12px;font-weight:700}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-end}
+.ctl{display:flex;flex-direction:column;gap:6px;min-width:118px;flex:1}
+.ctl label{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:.08em;color:var(--gold)}
+.ctl input[type=range]{width:100%;accent-color:var(--gold-bright);height:26px}
+.ctl .val{font-family:'Space Mono',monospace;font-size:18px;color:var(--cream)}
+.ctl-toggle{display:flex;align-items:center;gap:10px;min-height:44px}
+.ctl-toggle input{width:22px;height:22px;accent-color:var(--gold-bright)}
+.panel .reset{background:var(--plum-top);color:var(--cream);border:2px solid var(--gold);border-radius:12px;padding:12px 20px;font-weight:700;min-height:48px}
+.panel .reset:hover{background:var(--plum-deep)}
+.boothctl[hidden]{display:none}
+
+.card{background:var(--plum);border:2px solid var(--plum-panel);border-radius:20px;padding:clamp(24px,3.4vw,42px)}
+.card .intro{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(20px,2.2vw,24px);line-height:1.5;border-left:5px solid var(--gold);padding-left:18px;margin-bottom:24px}
+.card .slotline{font-family:'Space Mono',monospace;font-size:18px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin-bottom:10px}
+.card h3.tracktitle{font-size:clamp(30px,3.6vw,46px);font-weight:900;line-height:1.08;margin-bottom:10px}
+.card .realtitle{font-size:clamp(19px,2vw,22px);font-style:italic;opacity:.94;margin-bottom:16px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.tagpill{font-family:'Space Mono',monospace;font-weight:700;font-size:18px;letter-spacing:.14em;padding:5px 16px;border-radius:999px}
+.tagpill.hit{border:2px solid var(--gold-bright);color:var(--gold-bright)}
+.tagpill.bside{background:var(--plum-top);border:2px solid var(--plum-top)}
+.tagpill.b2b{background:var(--gold-bright);color:var(--ink);border:2px solid var(--gold-bright)}
+.meta{display:grid;gap:6px;font-size:19px;margin-bottom:22px}
+.meta b{color:var(--gold)}
+.verify{border:2px dashed var(--warn);border-radius:8px;padding:1px 9px;font-family:'Space Mono',monospace;font-size:18px;color:var(--warn);white-space:nowrap}
+.bpmrow{margin-bottom:24px}
+.bpmrow .bpmtext{font-family:'Space Mono',monospace;font-size:19px;color:var(--gold);letter-spacing:.12em;margin-bottom:8px}
+.bpmbar{height:16px;background:var(--plum-deep);border-radius:999px;overflow:hidden;border:1px solid var(--plum-top)}
+.bpmbar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-bright));border-radius:999px;transition:width .6s ease}
+.bpmbar.peak i{background:linear-gradient(90deg,var(--gold),var(--warn),var(--gold-bright));box-shadow:0 0 18px rgba(232,163,61,.85)}
+@media (prefers-reduced-motion: reduce){ .bpmbar i{transition:none} }
+.hook{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(24px,3vw,34px);line-height:1.3;margin-bottom:8px}
+.hook::before{content:"“";color:var(--gold-bright)}
+.hook::after{content:"”";color:var(--gold-bright)}
+.hookby{font-size:19px;color:var(--gold);margin-bottom:24px}
+.why{font-size:19px;margin-bottom:24px}
+.why b{color:var(--gold)}
+.b2bnote{background:var(--plum-deep);border:2px solid var(--gold);border-radius:14px;padding:16px 20px;font-size:19px;margin-bottom:24px}
+.b2bnote b{color:var(--gold-bright)}
+.readlink{display:inline-block;font-weight:700;font-size:20px}
+.card.flash{animation:cardin .4s ease}
+@keyframes cardin{from{opacity:.25;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){ .card.flash{animation:none} }
+
+.crate{background:var(--plum);border:2px solid var(--plum-panel);border-radius:20px;padding:22px}
+.crate h3{font-size:26px;font-weight:900;margin-bottom:6px}
+.crate .hint{font-size:18px;color:var(--gold);margin-bottom:16px}
+.crate ol{list-style:none;display:grid;gap:10px}
+.trackbtn{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:var(--plum-deep);border:2px solid var(--plum-panel);border-radius:14px;padding:14px 16px;color:var(--cream);min-height:60px}
+.trackbtn:hover{border-color:var(--gold)}
+.trackbtn[aria-current="true"]{border-color:var(--gold-bright);background:var(--plum-top);box-shadow:0 0 20px rgba(226,183,107,.18)}
+.trackbtn .tnum{font-family:'Space Mono',monospace;font-weight:700;font-size:20px;color:var(--gold-bright);flex:0 0 34px}
+.trackbtn .tmeta{min-width:0;flex:1}
+.trackbtn .tname{display:block;font-weight:700;font-size:18px;line-height:1.3}
+.trackbtn .tsub{display:block;font-size:18px;color:var(--gold);line-height:1.35}
+.trackbtn .ttag{font-family:'Space Mono',monospace;font-size:18px;font-weight:700;letter-spacing:.08em;color:var(--gold-bright);flex:0 0 auto}
+.trackbtn .ttag.bs{color:var(--cream)}
+
+.liner,.cta{max-width:900px;margin:0 auto;padding:clamp(36px,5vw,72px) clamp(18px,4vw,48px)}
+.liner h2,.cta h2{font-size:clamp(32px,4vw,52px);font-weight:900;margin-bottom:24px}
+.liner p{margin-bottom:18px;font-size:19px}
+.liner .method{background:var(--plum);border-left:5px solid var(--gold);border-radius:0 14px 14px 0;padding:20px 24px}
+.signoff{margin-top:30px;background:var(--plum-panel);border-left:5px solid var(--gold);border-radius:0 16px 16px 0;padding:22px 26px;font-family:'Fraunces',serif;font-style:italic;font-size:clamp(20px,2.2vw,24px)}
+.signoff .who{font-family:'Space Mono',monospace;font-style:normal;font-size:18px;letter-spacing:.18em;color:var(--gold);display:block;margin-bottom:6px}
+.cta{text-align:center;background:linear-gradient(150deg,var(--plum) 0%,var(--plum-top) 100%);border-radius:26px;margin-bottom:clamp(36px,5vw,72px);border:2px solid var(--gold)}
+.cta p{font-size:20px;max-width:620px;margin:0 auto 30px}
+.cta .needle{margin-top:0}
+footer{border-top:2px solid var(--plum-panel);padding:28px clamp(18px,4vw,48px);font-size:18px;text-align:center}
+.credit-link{color:var(--gold-bright);text-decoration:none;font-weight:700;}
+.credit-link:hover{text-decoration:underline;}
+noscript .nslist{max-width:900px;margin:20px auto;padding:0 24px;font-size:19px}
+noscript li{margin-bottom:10px}
+
+@media (max-width:980px){
+  .booth-grid{grid-template-columns:1fr}
+  .stage{height:min(78vw,440px)}
+  .transport .pos{margin-left:0;width:100%}
+  .ctl{min-width:44%}
+  .host2d{width:min(54%,250px)}
+  .top .setlabel{display:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<g id="marlowe-art">
+  <path d="M66,150 Q46,176 38,204" stroke="#A9714B" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M134,150 Q150,178 154,204" stroke="#A9714B" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <circle cx="38" cy="206" r="9" fill="#A9714B"/><circle cx="154" cy="206" r="9" fill="#A9714B"/>
+  <circle cx="148" cy="196" r="4.5" fill="none" stroke="#C9A87C" stroke-width="3"/>
+  <path d="M74,142 Q100,128 126,142 L122,162 Q114,170 112,178 L118,220 L82,220 L88,178 Q86,170 78,162 Z" fill="#4A3160"/>
+  <path d="M84,152 Q92,161 98,154 M102,154 Q108,161 116,152" stroke="#3E2A4D" stroke-width="3" fill="none"/>
+  <path d="M88,178 Q100,184 112,178" stroke="#C9A87C" stroke-width="4" fill="none"/>
+  <path d="M80,143 Q100,133 120,143" stroke="#C9A87C" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="160" r="3" fill="#C9A87C"/>
+  <rect x="93" y="112" width="14" height="22" rx="6" fill="#A9714B"/>
+  <circle cx="100" cy="90" r="26" fill="#A9714B"/>
+  <g fill="#2B1E24">
+    <circle cx="76" cy="76" r="10"/><circle cx="86" cy="67" r="11"/><circle cx="99" cy="63" r="11"/>
+    <circle cx="112" cy="66" r="11"/><circle cx="123" cy="75" r="10"/><circle cx="70" cy="87" r="9"/>
+    <circle cx="129" cy="87" r="9"/><circle cx="80" cy="61" r="8"/><circle cx="108" cy="57" r="8"/>
+    <circle cx="93" cy="56" r="8"/><circle cx="120" cy="61" r="8"/><circle cx="73" cy="68" r="7"/>
+  </g>
+  <path d="M85,84 Q91,80 97,83 M103,83 Q109,80 115,84" stroke="#2B1E24" stroke-width="2.6" fill="none"/>
+  <ellipse cx="91" cy="91" rx="3.4" ry="2.4" fill="#F3EDE4"/><ellipse cx="109" cy="91" rx="3.4" ry="2.4" fill="#F3EDE4"/>
+  <circle cx="91" cy="91" r="1.7" fill="#3A2A22"/><circle cx="109" cy="91" r="1.7" fill="#3A2A22"/>
+  <path d="M100,94 L98,101 L102,101" stroke="#8D5A3B" stroke-width="1.8" fill="none"/>
+  <path d="M93,107 Q100,111 107,107 Q100,109 93,107" fill="#B4655F"/>
+  <path d="M72,78 A30,30 0 0 1 128,78" stroke="#C9A87C" stroke-width="6" fill="none"/>
+  <rect x="63" y="80" width="13" height="23" rx="6" fill="#3E2A4D" stroke="#C9A87C" stroke-width="3"/>
+  <path d="M128,78 L137,63" stroke="#C9A87C" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="127" cy="108" r="5" fill="none" stroke="#C9A87C" stroke-width="3"/>
+</g>
+</defs></svg>
+
+<header class="top">
+  <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><path d="M2 14 L32 4 L18 30 L13 19 Z" fill="#F7F3EC"/><path d="M13 19 L32 4 L15 22 Z" fill="#C9A87C"/></svg>
+  <span class="wordmark">COPYFLIGHT</span><span class="setlabel">THE 2026 SET</span>
+</header>
+
+<section class="hero">
+  <div class="bokeh" aria-hidden="true">
+    <i style="left:8%;top:22%;width:10px;height:10px;animation-delay:0s"></i><i style="left:20%;top:64%;width:6px;height:6px;animation-delay:1.4s"></i>
+    <i style="left:33%;top:18%;width:7px;height:7px;animation-delay:2.8s"></i><i style="left:47%;top:76%;width:12px;height:12px;opacity:.14;animation-delay:.7s"></i>
+    <i style="left:61%;top:30%;width:6px;height:6px;animation-delay:3.5s"></i><i style="left:72%;top:60%;width:9px;height:9px;animation-delay:2.1s"></i>
+    <i style="left:84%;top:24%;width:13px;height:13px;opacity:.16;animation-delay:4.2s"></i><i style="left:91%;top:70%;width:7px;height:7px;animation-delay:1.1s"></i>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow">Copyflight presents · nine tracks · one year</p>
+    <h1>The 2026 Business Storytelling <em>Set</em></h1>
+    <p class="mixed">Mixed by Todd E Jones, Narrative Archeologist</p>
+    <div class="welcome">
+      <!-- Updated Avatar Logic -->
+      <span class="avatar" id="heroAvatar"><img alt="Marlowe, the DJ hosting this set" src=""></span>
+      <div><span class="who">MARLOWE · ON THE DECKS</span>
+      <p>You made it. Todd E Jones stacked the crate with nine stories from 2026 — I'm Marlowe, and I'll play them for you.</p></div>
+    </div>
+    <button class="needle" id="dropNeedle">Drop the needle ▸</button>
+  </div>
+</section>
+
+<main class="booth" id="booth">
+  <div class="booth-head">
+    <h2>The Booth</h2>
+    <span class="onair" id="onairHead">ON AIR</span>
+  </div>
+
+  <div class="musicbar">
+    <label class="filebtn">Load music<input type="file" id="musicFile" accept="audio/*" aria-label="Load an audio file from your device to play under the set"></label>
+    <button class="pillbtn" id="muteBtn" aria-pressed="false">Sound: OFF</button>
+    <button class="pillbtn ghost" id="musicClear">Remove track</button>
+    <div class="vol"><label for="volSlider">Volume</label><input type="range" id="volSlider" min="0" max="100" value="70"></div>
+    <p class="musicstatus" id="musicStatus">No music loaded. <b>Download the AtlasAudio track from Pixabay</b>, then load it here. It loops under all 9 tracks and saves locally.</p>
+  </div>
+
+  <div class="booth-grid">
+    <div class="stage-col">
+      <div class="stage" id="stage">
+        <div class="fallback" id="fallback">
+          <div class="fb-deck"><div class="fb-arm" aria-hidden="true"></div><div class="fb-label" id="fbLabel">1</div></div>
+          <div class="fb-fader" aria-hidden="true"><i id="fbFader"></i></div>
+        </div>
+        <canvas id="cBack" style="display:none" aria-hidden="true"></canvas>
+        <!-- Host Layer -->
+        <div class="host2d" id="host2d" role="img" aria-label="Marlowe, the DJ, standing behind the booth."><img alt="Marlowe, the DJ, standing behind the booth." src=""></div>
+        <canvas id="cFront" style="display:none" role="img" aria-label="3D DJ booth foreground: two turntables and a mixer lit warm gold. Track 1 is loaded."></canvas>
+        <span class="onair" id="onairStage">ON AIR</span>
+        <span class="stagehint">drag to orbit</span>
+        <div class="crossfade" id="crossfade" aria-hidden="true"></div>
+      </div>
+
+      <div class="transport">
+        <button id="prevBtn" aria-label="Previous track">◂ Prev</button>
+        <button id="playBtn" class="playpause" aria-pressed="false" aria-label="Play the set">Play</button>
+        <button id="nextBtn" aria-label="Next track">Next ▸</button>
+        <span class="pos" id="posLabel">01 / 09</span>
+      </div>
+
+      <div class="panel">
+        <h4>Marlowe · fit her to the booth</h4>
+        <div class="row">
+          <label class="filebtn">Re-load image<input type="file" id="hostFile" accept="image/png,image/jpeg,image/webp,image/gif" aria-label="Load your generated Marlowe image"></label>
+          <div class="ctl"><label for="hScale">Size</label><input type="range" id="hScale" min="50" max="190" value="100"><span class="val" id="vScale">100%</span></div>
+          <div class="ctl"><label for="hY">Height</label><input type="range" id="hY" min="-30" max="40" value="0"><span class="val" id="vY">0</span></div>
+          <div class="ctl"><label for="hX">Shift</label><input type="range" id="hX" min="-40" max="40" value="0"><span class="val" id="vX">0</span></div>
+          <button class="reset" id="hostReset">Default art</button>
+        </div>
+      </div>
+
+      <div class="panel boothctl" id="boothctl" hidden>
+        <h4>Booth · light &amp; camera</h4>
+        <div class="row">
+          <div class="ctl"><label for="ctlOrbit">Orbit</label><input type="range" id="ctlOrbit" min="-38" max="38" value="0"><span class="val" id="vOrbit">0°</span></div>
+          <div class="ctl"><label for="ctlZoom">Zoom</label><input type="range" id="ctlZoom" min="60" max="100" value="80"><span class="val" id="vZoom">8.0</span></div>
+          <div class="ctl"><label for="ctlGlow">Glow</label><input type="range" id="ctlGlow" min="40" max="190" value="100"><span class="val" id="vGlow">1.0×</span></div>
+          <div class="ctl"><label for="ctlHaze">Haze</label><input type="range" id="ctlHaze" min="0" max="90" value="48"><span class="val" id="vHaze">0.048</span></div>
+          <div class="ctl"><label for="ctlSpin">Spin</label><input type="range" id="ctlSpin" min="0" max="200" value="100"><span class="val" id="vSpin">1.0×</span></div>
+          <div class="ctl ctl-toggle"><input type="checkbox" id="ctlPulse" checked><label for="ctlPulse">Peak pulse</label></div>
+          <button class="reset" id="ctlRandom">Randomize</button>
+          <button class="reset" id="ctlReset">Reset</button>
+        </div>
+      </div>
+
+      <article class="card" id="card" aria-label="Current track card"></article>
+    </div>
+
+    <aside class="crate" aria-label="Tracklist">
+      <h3>The Crate</h3>
+      <p class="hint">Tap a track, or use ← → arrow keys.</p>
+      <ol id="tracklist"></ol>
+    </aside>
+  </div>
+</main>
+
+<section class="liner">
+  <h2>Liner Notes</h2>
+  <p>2026 was the year story stopped being a deliverable and became infrastructure. The market put a price on it — up to $775,000 for the right storyteller — while the average team could barely agree on what the company actually does. Underneath every hit in this crate runs the same warning: AI is already telling your story, using whatever old material you left lying around. And the pieces that lasted all pointed at the same fix — one clear narrative, governed like code, told by people who actually lived it.</p>
+  <p class="method"><b>How this set was picked:</b> 2026 originals only — no encores, no homepage links, no coverage of somebody else's work. Every track links to its original source, every author is credited by name, and anything I couldn't fully confirm is marked <span class="verify">[VERIFY]</span> on the card. — Todd</p>
+  <div class="signoff"><span class="who">MARLOWE · SIGNING OFF</span>That's the last record. The rest is yours to tell. I'm Marlowe — goodnight.</div>
+</section>
+
+<section class="cta">
+  <h2>Want a set like this for your own year?</h2>
+  <p>Send Todd one thing you made that deserved more attention — a webinar, a case study, a podcast episode. He'll find the story still alive in it and show you what he'd turn it into.</p>
+  <a class="needle" href="https://copyflight.com" target="_blank" rel="noopener">Send Todd one thing ▸</a>
+</section>
+
+<footer>
+  <p>The 2026 Business Storytelling Set · Curated by Todd E Jones, Narrative Archeologist · <a href="https://copyflight.com" target="_blank" rel="noopener">copyflight.com</a></p>
+  <p style="margin-top:12px;">Music by <a class="credit-link" href="https://pixabay.com/users/atlasaudio-54514918/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=625676" target="_blank" rel="noopener noreferrer">AtlasAudio</a> from <a class="credit-link" href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=625676" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
+</footer>
+
+<noscript><div class="nslist"><p><b>The decks need JavaScript — but every original is right here:</b></p><ol>
+<li><a href="https://agoodreputation.substack.com/p/how-to-find-story-ideas-anywhere">Renee Lynn Frojo — How to find story ideas anywhere</a></li>
+<li><a href="https://www.thestorytellinglabpodcast.com/items/how-to-build-narrative-architecture-before-ai-builds-it-for-you-with-michael-margolis">Michael Margolis — How to Build Narrative Architecture Before AI Builds It for You</a></li>
+<li><a href="https://storytellingedge.substack.com/p/the-3-forces-behind-those-500k-storytelling">Joe Lazer — The 3 forces behind those $500K business storytelling roles</a></li>
+<li><a href="https://businessofstory.com/podcast/state-of-storytelling-2026/">Elliott Rayner — Why 81% of Your Team Can't Tell Your Story</a></li>
+<li><a href="https://businessofstory.com/podcast/abt-narrative-framework-storyops-brand-storytelling/">Dr. Randy Olson — How The ABT Narrative Framework That Makes Your Message Endure</a></li>
+<li><a href="https://www.marketingprofs.com/articles/2026/54630/b2b-storytelling-frameworks">JenMarie Macdonald &amp; Matthew Kabik — Three Attention-Grabbing Story Structures</a></li>
+<li><a href="https://shows.acast.com/storytelling-lab/episodes/what-a-head-of-storytelling-actually-does-all-day">Elliott Rayner — What a Head of Storytelling Actually Does All Day</a></li>
+<li><a href="https://businessofstory.com/podcast/story-drift-ai-brand-storytelling/">Laura Hertz — Story Drift Costs Impact</a></li>
+<li><a href="https://podcasts.apple.com/us/podcast/why-your-best-product-still-will-not-win-without-a/id1440526574?i=1000802756366">Greg Rosner — Why Your Best Product Still Will Not Win Without a Clear Story</a></li>
+</ol></div></noscript>
+
+<div class="sr-only" aria-live="polite" id="status"></div>
+
+<script>
+"use strict";
+const TRACKS=[
+{slot:"OPENER",tag:"B-SIDE",b2b:false,energy:5,bpm:120,title:"Story Ideas Are in Your Kitchen",real:"How to find story ideas anywhere",author:"Renee Lynn Frojo",pub:"A Good Reputation · Substack",date:"Jun 29, 2026",verify:false,url:"https://agoodreputation.substack.com/p/how-to-find-story-ideas-anywhere",hook:"there's a wide space for men my age to talk about their emotions.",hookby:"Scott Galloway, on his most-read post — putting his dog down. Quoted by Frojo.",why:"You keep waiting for a “content idea” when the story is already in your day. Frojo shows you where to look — your own life, your customers' offhand lines — before you ever open a framework.",intro:"Between us, this one deserved more spins. Renee Lynn Frojo hunts story ideas in her own chaotic house — and in a Scott Galloway interview. Ease in.",transition:null,b2bnote:null},
+{slot:"BUILD",tag:"HIT",b2b:false,energy:6,bpm:132,title:"The Story Is the Strategy",real:"How to Build Narrative Architecture Before AI Builds It for You",author:"Michael Margolis · with host Rain Bennett",pub:"The Storytelling Lab · EP236",date:"Jun 18, 2026",verify:false,url:"https://www.thestorytellinglabpodcast.com/items/how-to-build-narrative-architecture-before-ai-builds-it-for-you-with-michael-margolis",hook:"The story is the strategy. A company without a story is usually a company without a strategy.",hookby:"Michael Margolis",why:"Most founders treat story as the wrapper around the strategy. Margolis argues it IS the strategy — and that AI will build your narrative for you if you don't build it first.",intro:"Michael Margolis has built narrative inside Meta. His line is simple: the story is the strategy. Turn it up a notch.",transition:"You found the story in your kitchen. Michael Margolis is about to tell you it belongs in the boardroom.",b2bnote:null},
+{slot:"BUILD",tag:"HIT",b2b:false,energy:7,bpm:144,title:"The Market Finally Priced It In",real:"The 3 forces behind those $500K business storytelling roles",author:"Joe Lazer (FKA Joe Lazauskas)",pub:"The Storytelling Edge · Substack",date:"Mar 3, 2026",verify:false,url:"https://storytellingedge.substack.com/p/the-3-forces-behind-those-500k-storytelling",hook:"companies like Netflix, OpenAI, and Anthropic paying up to $775,000 for storytelling roles.",hookby:"Joe Lazer",why:"You've felt storytelling get suddenly valuable but couldn't prove it. Lazer brings the receipts — the salaries, the CEO-level shift — so you can argue for it in a budget meeting.",intro:"Joe Lazer — you knew him as Lazauskas — counted what Netflix, OpenAI and Anthropic pay storytellers. The number's real. Feel the room warm up.",transition:"If the story is the strategy, the market finally priced it in. Joe Lazer has the number.",b2bnote:null},
+{slot:"PEAK",tag:"HIT",b2b:false,energy:10,bpm:180,title:"Four Out of Five Can't Say It",real:"Elliott Rayner on Why 81% of Your Team Can't Tell Your Story",author:"Elliott Rayner · with host Park Howell",pub:"Business of Story · #575",date:"Jul 6, 2026",verify:false,url:"https://businessofstory.com/podcast/state-of-storytelling-2026/",hook:"On average, 19% of people in the organization agree on the answers.",hookby:"Elliott Rayner — State of Storytelling 2026",why:"Here's the gap between what you believe about your company and what your team can actually say. Rayner put a number on it — the number every consultant quoted this year.",intro:"Here it is. Elliott Rayner surveyed the whole company and only nineteen percent could tell the story. This is the one everyone cited this year. Loud.",transition:"The market's paying top dollar for storytellers. Elliott Rayner just found out most of your team can't be one.",b2bnote:null},
+{slot:"B2B",tag:"HIT",b2b:true,energy:9,bpm:168,title:"Three Words, 160 Years",real:"How The ABT Narrative Framework That Makes Your Message Endure",author:"Dr. Randy Olson · with host Park Howell",pub:"Business of Story · #591",date:"Nov 2, 2026",verify:false,url:"https://businessofstory.com/podcast/abt-narrative-framework-storyops-brand-storytelling/",hook:"What it took me two hours to ramble through, you nailed in two minutes.",hookby:"Edward Everett to Abraham Lincoln, as quoted in the episode — 272 words, two minutes.",why:"When your message rambles, Olson gives you a 160-year-old fix you can run on any pitch. It's the most battle-tested structure in the crate, from the guy who decoded it.",intro:"Dr. Randy Olson, tenth time on these decks. He says Lincoln nailed in two minutes what another man rambled for two hours. One structure, he swears.",transition:"Eighty-one percent can't tell it. Randy Olson says the fix is three words old as Lincoln.",b2bnote:"<b>B2B · side A:</b> Olson says one structure underlies everything — “the other five are all just derivations of the ABT.” Macdonald &amp; Kabik disagree next door."},
+{slot:"B2B",tag:"HIT",b2b:true,energy:8,bpm:156,title:"Bring a Whole Crate of Shapes",real:"Three Attention-Grabbing Story Structures (That Aren't the Hero's Journey)",author:"JenMarie Macdonald & Matthew Kabik",pub:"MarketingProfs",date:"2026",verify:true,url:"https://www.marketingprofs.com/articles/2026/54630/b2b-storytelling-frameworks",hook:"1.1 billion impressions for a single, six-character post.",hookby:"MoonPie's “Lol ok” — 2017, via Macdonald & Kabik.",why:"If the hero's journey never fit your short B2B post, this is your permission slip. Macdonald and Kabik hand you three structures built for short, ongoing B2B attention.",intro:"Trading records now. JenMarie Macdonald and Matthew Kabik say the hero's journey is too clunky for B2B. They brought three other shapes. Same crate, different argument.",transition:"Randy swears by one structure. JenMarie and Matthew brought a whole crate of them. Two DJs, one argument.",b2bnote:"<b>B2B · side B:</b> Macdonald &amp; Kabik say the hero's journey is too clunky for B2B — kishōtenketsu “doesn't require the typical problem-solution formula.” Two DJs, one argument."},
+{slot:"COOLDOWN",tag:"B-SIDE",b2b:false,energy:4,bpm:108,title:"What the Job Actually Is",real:"What a Head of Storytelling Actually Does All Day",author:"Elliott Rayner · with host Rain Bennett",pub:"The Storytelling Lab · EP242",date:"Oct 30, 2026",verify:false,url:"https://shows.acast.com/storytelling-lab/episodes/what-a-head-of-storytelling-actually-does-all-day",hook:"The narrative function is no longer about writing the story. It's about building the system that allows thousands of people to tell consistent versions of it simultaneously.",hookby:"Amazon, cited by Elliott Rayner — from 25 roles across 21 industries.",why:"Everyone's hiring a “Head of Storytelling” and nobody knows what the job is. Rayner and Bennett open the hood on the actual Tuesday-morning work, so you can hire it or become it.",intro:"Quiet one. Elliott Rayner again, with Rain Bennett, asking what a Head of Storytelling actually does on a Tuesday. Between us, this is the real job.",transition:"Let's bring it down. Elliott Rayner's back, this time asking who actually does this job all day.",b2bnote:null},
+{slot:"COOLDOWN",tag:"HIT",b2b:false,energy:5,bpm:120,title:"Five Years of “You Have That?”",real:"Story Drift Costs Impact: How to Keep AI From Telling Your Old Story",author:"Laura Hertz · with host Park Howell",pub:"Business of Story · #593",date:"Nov 16, 2026",verify:false,url:"https://businessofstory.com/podcast/story-drift-ai-brand-storytelling/",hook:"You have that?” — “I've had that for five years.",hookby:"A big-tech customer of seven years, needing a gift for 4,000 people on December 5th — Laura Hertz.",why:"Your brand story is being told right now by AI trained on your old content. Hertz shows what that drift costs in real customers, and why a human still has to own the telling.",intro:"Laura Hertz built Gifts for Good. A customer of seven years didn't know her platform existed — she'd been saying it for five. Sit with that.",transition:"Systems are nothing without a person who cares. Laura Hertz learned that the hard way, over five years.",b2bnote:null},
+{slot:"CLOSER",tag:"B-SIDE",b2b:false,energy:6,bpm:132,title:"The Agents You'll Spawn in 2027",real:"Why Your Best Product Still Will Not Win Without a Clear Story",author:"Greg Rosner · with host Rain Bennett",pub:"The Storytelling Lab · EP243",date:"Nov 18, 2026",verify:false,url:"https://podcasts.apple.com/us/podcast/why-your-best-product-still-will-not-win-without-a/id1440526574?i=1000802756366",hook:"any AI agent in 2027 that a business spawns to do anything, if they're not operating from that same hymn sheet, then you're going to have the same problem in scaling with AI agents.",hookby:"Greg Rosner",why:"You're optimizing your website for humans who increasingly aren't the ones reading it. Rosner points at 2027, when your own AI agents need one clear story to scale from.",intro:"Last one, and it's barely a week old — Greg Rosner. He's not talking about this year. He's talking about the AI agents you'll spawn in 2027. Take this one home.",transition:"Laura's fighting yesterday's AI. Greg Rosner is already looking at 2027's. Last record.",b2bnote:null}
+];
+
+const $=id=>document.getElementById(id);
+const reducedMQ=window.matchMedia("(prefers-reduced-motion: reduce)");
+const state={i:0,playing:false,sound:false,reduced:reducedMQ.matches,three:null};
+const pad=n=>String(n).padStart(2,"0");
+const booth={glow:1,haze:.048,spin:1,pulse:true};
+const hostFit={scale:1,x:0,y:0};
+let crossTimer=null;
+
+/* ---------- Persistence Helpers ---------- */
+const LS={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
+const DB={
+  open(){return new Promise((res,rej)=>{const r=indexedDB.open("copyflight-set",1);r.onupgradeneeded=()=>{const d=r.result;if(!d.objectStoreNames.contains("assets"))d.createObjectStore("assets")};r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})},
+  async put(k,v){try{const d=await this.open();return await new Promise((res,rej)=>{const t=d.transaction("assets","readwrite");t.objectStore("assets").put(v,k);t.oncomplete=()=>res(1);t.onerror=()=>rej(t.error)})}catch(e){return null}},
+  async get(k){try{const d=await this.open();return await new Promise((res,rej)=>{const t=d.transaction("assets","readonly");const q=t.objectStore("assets").get(k);q.onsuccess=()=>res(q.result||null);q.onerror=()=>rej(q.error)})}catch(e){return null}},
+  async del(k){try{const d=await this.open();return await new Promise(res=>{const t=d.transaction("assets","readwrite");t.objectStore("assets").delete(k);t.oncomplete=()=>res(1);t.onerror=()=>res(null)})}catch(e){return null}}
+};
+
+/* ---------- Default Assets Injection ---------- */
+// We inject the base64 data URI directly into the JS variable below 
+// instead of relying solely on local storage initially.
+const DEFAULT_MARLOWE_IMG = ""; // Paste your Base64 string here if you want it hardcoded permanently
+
+function applyFit(){
+  const h=$("host2d");
+  h.style.transform=`translateX(calc(-50% + ${hostFit.x}px)) translateY(${-hostFit.y}px) scale(${hostFit.scale})`;
+}
+function setHost(src){
+  const h=$("host2d"),av=$("heroAvatar");
+  if(src){
+    h.innerHTML='<img alt="Marlowe, the DJ, standing behind the booth." src="'+src+'">';
+    av.innerHTML='<img alt="Marlowe, the DJ hosting this set" src="'+src+'">';
+    LS.set("marloweImg",src);
+  }else{
+    // Fallback SVG logic remains intact
+    h.innerHTML='<svg viewBox="0 0 200 220" aria-hidden="true"><use href="#marlowe-art"/></svg>';
+    av.innerHTML='<svg viewBox="40 40 120 120" role="img" aria-label="Marlowe, the DJ hosting this set"><use href="#marlowe-art"/></svg>';
+    LS.del("marloweImg");
+  }
+  applyFit();
+}
+function initHost(){
+  // Try loading saved custom image first
+  const saved=LS.get("marloweImg");
+  
+  // If no save exists AND we have a hardcoded default, use that
+  if(!saved && DEFAULT_MARLOWE_IMG) {
+     setHost(DEFAULT_MARLOWE_IMG);
+  } else if(saved) {
+     setHost(saved);
+  }
+  
+  try{const f=JSON.parse(LS.get("hostFit")||"null");if(f){hostFit.scale=f.scale;hostFit.x=f.x;hostFit.y=f.y;$("hScale").value=Math.round(f.scale*100);$("hX").value=f.x;$("hY").value=f.y;$("vScale").textContent=Math.round(f.scale*100)+"%";$("vX").textContent=f.x;$("vY").textContent=f.y;}}catch(e){}
+  applyFit();
+  $("hostFile").addEventListener("change",e=>{const f=e.target.files&&e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>setHost(r.result);r.readAsDataURL(f);e.target.value="";});
+  $("hostReset").addEventListener("click",()=>{setHost(null);hostFit.scale=1;hostFit.x=0;hostFit.y=0;$("hScale").value=100;$("hX").value=0;$("hY").value=0;$("vScale").textContent="100%";$("vX").textContent="0";$("vY").textContent="0";LS.del("hostFit");applyFit();});
+  const save=()=>LS.set("hostFit",JSON.stringify(hostFit));
+  $("hScale").addEventListener("input",e=>{hostFit.scale=e.target.value/100;$("vScale").textContent=e.target.value+"%";applyFit();save();});
+  $("hX").addEventListener("input",e=>{hostFit.x=+e.target.value;$("vX").textContent=e.target.value;applyFit();save();});
+  $("hY").addEventListener("input",e=>{hostFit.y=+e.target.value;$("vY").textContent=e.target.value;applyFit();save();});
+}
+
+/* ---------- Music System ---------- */
+const Music=(()=>{
+  const el=new Audio();el.loop=true;el.preload="auto";
+  let url=null,loaded=false,name="";
+  function status(){
+    const s=$("musicStatus");
+    if(!loaded){s.innerHTML='No music loaded. <b>Download the AtlasAudio track from Pixabay</b>, then load it here. It loops under all 9 tracks and saves locally.';}
+    else{s.innerHTML='Now on the platter: <b>'+name+'</b> — loops under all nine tracks. '+(state.sound?'Sound is on.':'Sound is off; press Sound: OFF to enable.');}
+  }
+  function useBlob(blob,label){
+    if(url)URL.revokeObjectURL(url);
+    url=URL.createObjectURL(blob);el.src=url;el.load();loaded=true;name=label;
+    el.volume=+$("volSlider").value/100;status();
+    if(state.playing&&state.sound)el.play().catch(()=>{});
+  }
+  return{
+    el,status,
+    has(){return loaded},
+    async init(){
+      const v=LS.get("vol");if(v!==null){$("volSlider").value=v;}
+      el.volume=+$("volSlider").value/100;
+      const rec=await DB.get("music");
+      if(rec&&rec.blob){useBlob(rec.blob,rec.name||"your track");}
+      $("musicFile").addEventListener("change",async e=>{
+        const f=e.target.files&&e.target.files[0];if(!f)return;
+        useBlob(f,f.name);await DB.put("music",{blob:f,name:f.name});e.target.value="";
+      });
+      $("musicClear").addEventListener("click",async()=>{
+        el.pause();if(url)URL.revokeObjectURL(url);url=null;el.removeAttribute("src");el.load();loaded=false;name="";await DB.del("music");status();
+      });
+      $("volSlider").addEventListener("input",e=>{el.volume=e.target.value/100;LS.set("vol",e.target.value);Beat.vol(e.target.value/100);});
+      status();
+    },
+    play(){if(loaded&&state.sound)el.play().catch(()=>{});},
+    pause(){el.pause();},
+    stopAll(){el.pause();}
+  };
+})();
+
+/* ---------- Beat Generator (Fallback Visualizer) ---------- */
+const Beat=(()=>{
+  let ctx=null,master=null,timer=null,nextT=0,bpm=120,vol=.7;
+  function tick(){while(nextT<ctx.currentTime+.25){const b=60/bpm;kick(nextT);hat(nextT+b/2);nextT+=b;}}
+  function kick(t){const o=ctx.createOscillator(),g=ctx.createGain();o.frequency.setValueAtTime(110,t);o.frequency.exponentialRampToValueAtTime(48,t+.12);g.gain.setValueAtTime(.5,t);g.gain.exponentialRampToValueAtTime(.001,t+.22);o.connect(g);g.connect(master);o.start(t);o.stop(t+.25);}
+  function hat(t){const n=Math.floor(ctx.sampleRate*.05),b=ctx.createBuffer(1,n,ctx.sampleRate),d=b.getChannelData(0);for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*(1-i/n);const s=ctx.createBufferSource(),f=ctx.createBiquadFilter(),g=ctx.createGain();s.buffer=b;f.type="highpass";f.frequency.value=6500;g.gain.value=.1;s.connect(f);f.connect(g);g.connect(master);s.start(t);}
+  return{
+    vol(v){vol=v;if(master)master.gain.value=.16*v;},
+    bpm(b){bpm=b;},
+    on(){if(Music.has())return;if(!ctx){const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;ctx=new AC();master=ctx.createGain();master.gain.value=.16*vol;master.connect(ctx.destination);}ctx.resume();nextT=ctx.currentTime+.06;if(!timer)timer=setInterval(tick,100);},
+    off(){if(timer){clearInterval(timer);timer=null;}}
+  };
+})();
+
+function syncAudio(){
+  if(state.playing&&state.sound){Music.play();Beat.on();}
+  else{Music.pause();Beat.off();}
+}
+
+/* ---------- UI Rendering ---------- */
+function buildTracklist(){
+  const ol=$("tracklist");
+  TRACKS.forEach((t,i)=>{
+    const li=document.createElement("li"),b=document.createElement("button");
+    b.className="trackbtn";
+    b.setAttribute("aria-label",`Play track ${i+1}: ${t.title}, by ${t.author}. ${t.tag}${t.b2b?", back-to-back pair":""}. ${t.bpm} BPM.`);
+    b.innerHTML=`<span class="tnum">${pad(i+1)}</span><span class="tmeta"><span class="tname">${t.title}</span><span class="tsub">${t.author.split("·")[0].trim()} · ${t.bpm} BPM</span></span><span class="ttag ${t.tag==="B-SIDE"?"bs":""}">${t.b2b?"B2B":(t.tag==="HIT"?"HIT":"B-SIDE")}</span>`;
+    b.addEventListener("click",()=>{loadTrack(i,i>state.i);setPlaying(true);});
+    li.appendChild(b);ol.appendChild(li);
+  });
+}
+function renderCard(i){
+  const t=TRACKS[i];
+  const d=t.verify?`${t.date} · exact day <span class="verify">[VERIFY]</span>`:t.date;
+  const tags=`<span class="tagpill ${t.tag==="HIT"?"hit":"bside"}">${t.tag}</span>`+(t.b2b?`<span class="tagpill b2b">B2B</span>`:"");
+  $("card").innerHTML=`<p class="intro">${t.intro}</p><p class="slotline">Track ${pad(i+1)} · ${t.slot}</p><h3 class="tracktitle">${t.title}</h3><p class="realtitle">${t.real}</p><div class="tags">${tags}</div><div class="meta"><span><b>Author:</b> ${t.author}</span><span><b>Publication:</b> ${t.pub}</span><span><b>Published:</b> ${d}</span></div><div class="bpmrow"><div class="bpmtext">ENERGY ${t.energy} · ${t.bpm} BPM</div><div class="bpmbar ${t.slot==="PEAK"?"peak":""}"><i style="width:${Math.round((t.bpm-60)/120*100)}%"></i></div></div><p class="hook">${t.hook}</p><p class="hookby">— ${t.hookby}</p>${t.b2bnote?`<div class="b2bnote">${t.b2bnote}</div>`:""}<p class="why"><b>Why it's in the set:</b> ${t.why}</p><a class="readlink" href="${t.url}" target="_blank" rel="noopener">Read the original ▸</a>`;
+  const c=$("card");c.classList.remove("flash");void c.offsetWidth;c.classList.add("flash");
+}
+function showCrossfade(txt){const el=$("crossfade");el.innerHTML=`<span class="tag">MARLOWE · CROSSFADE</span>${txt}`;el.classList.add("show");clearTimeout(crossTimer);crossTimer=setTimeout(()=>el.classList.remove("show"),3200);}
+function loadTrack(i,fwd){
+  state.i=i;const t=TRACKS[i];renderCard(i);
+  document.querySelectorAll(".trackbtn").forEach((b,k)=>b.setAttribute("aria-current",k===i?"true":"false"));
+  $("posLabel").textContent=`${pad(i+1)} / ${pad(TRACKS.length)}`;
+  $("status").textContent=`Now ${state.playing?"playing":"cued"}: track ${i+1}, ${t.title}, by ${t.author}. ${t.bpm} BPM.`;
+  if(fwd&&t.transition)showCrossfade(t.transition);
+  if(state.three)state.three.setTrack(i,!state.reduced);
+  $("fbLabel").textContent=i+1;$("fbFader").style.left=(i%2===0)?"12%":"72%";
+  $("cFront").setAttribute("aria-label",`3D DJ booth foreground: two turntables and a mixer lit warm gold. Track ${i+1}, ${t.title}, is loaded.`);
+  Beat.bpm(t.bpm);
+}
+function setPlaying(on){
+  state.playing=on;
+  $("playBtn").textContent=on?"Pause":"Play";
+  $("playBtn").setAttribute("aria-pressed",String(on));
+  $("playBtn").setAttribute("aria-label",on?"Pause the set":"Play the set");
+  $("onairHead").classList.toggle("live",on);$("onairStage").classList.toggle("live",on);
+  $("stage").classList.toggle("playing",on&&!state.reduced);
+  if(state.three)state.three.setPlaying(on);
+  syncAudio();
+}
+const next=()=>loadTrack((state.i+1)%TRACKS.length,true);
+const prev=()=>loadTrack((state.i-1+TRACKS.length)%TRACKS.length,false);
+
+/* ---------- 3D Engine Initialization ---------- */
+async function init3D(){
+  if(!window.WebGLRenderingContext)return;
+  let THREE;
+  try{THREE=await import("https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js");}catch(e){console.warn("Three.js unavailable — flat booth.",e);return;}
+  const cB=$("cBack"),cF=$("cFront");let rB,rF;
+  try{
+    rB=new THREE.WebGLRenderer({canvas:cB,antialias:true});
+    rF=new THREE.WebGLRenderer({canvas:cF,antialias:true,alpha:true});
+  }catch(e){console.warn("WebGL unavailable — flat booth.",e);return;}
+  const C={room:0x1E1229,plum:0x3E2A4D,panel:0x332244,top:0x4A3160,gold:0xC9A87C,goldB:0xE2B76B,vinyl:0x17121C,rim:0x9B7FC4};
+  const pr=Math.min(window.devicePixelRatio||1,2);
+  [rB,rF].forEach(r=>{r.setPixelRatio(pr);r.toneMapping=THREE.ACESFilmicToneMapping;r.toneMappingExposure=1.12;});
+  rB.setClearColor(C.room,1);rF.setClearColor(0x000000,0);
+
+  const back=new THREE.Scene();back.fog=new THREE.FogExp2(C.room,booth.haze);
+  const front=new THREE.Scene();
+  const cam=new THREE.PerspectiveCamera(42,16/10,.1,60);
+  const tgt=new THREE.Vector3(0,1.62,0);
+  const mat=(c,r=.85,m=0)=>new THREE.MeshStandardMaterial({color:c,roughness:r,metalness:m});
+
+  const aB=new THREE.AmbientLight(0x6a5880,.6);back.add(aB);
+  const keyB=new THREE.DirectionalLight(C.goldB,1.7);keyB.position.set(3,6,4);back.add(keyB);
+  const rimB=new THREE.DirectionalLight(C.rim,1.0);rimB.position.set(-4,5,-5);back.add(rimB);
+  const glowB=new THREE.PointLight(C.goldB,24,16,2);glowB.position.set(0,3.4,1.4);back.add(glowB);
+  front.add(new THREE.AmbientLight(0x6a5880,.65));
+  const keyF=new THREE.DirectionalLight(C.goldB,1.7);keyF.position.set(3,6,4);front.add(keyF);
+  const rimF=new THREE.DirectionalLight(C.rim,1.0);rimF.position.set(-4,5,-5);front.add(rimF);
+  const glowF=new THREE.PointLight(C.goldB,24,16,2);glowF.position.set(0,3.4,1.4);front.add(glowF);
+  const onairL=new THREE.PointLight(C.goldB,0,8,2);onairL.position.set(0,3.0,-1.6);front.add(onairL);
+  const KEY=1.7,GLOW=24;
+
+  const floor=new THREE.Mesh(new THREE.PlaneGeometry(40,40),mat(0x2A1B3A,.95));floor.rotation.x=-Math.PI/2;back.add(floor);
+  const wall=new THREE.Mesh(new THREE.PlaneGeometry(40,14),mat(0x241634,.95));wall.position.set(0,6,-4.4);back.add(wall);
+  const shaftM=new THREE.MeshBasicMaterial({color:C.goldB,transparent:true,opacity:.055,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.DoubleSide});
+  [[-1.5,.22],[1.5,-.22]].forEach(([x,t])=>{const s=new THREE.Mesh(new THREE.ConeGeometry(1.2,5.8,20,1,true),shaftM);s.position.set(x,3.8,-.2);s.rotation.z=t;back.add(s);});
+  function radial(inner,outer){const cv=document.createElement("canvas");cv.width=cv.height=128;const g=cv.getContext("2d");const gr=g.createRadialGradient(64,64,inner,64,64,64);gr.addColorStop(0,outer);gr.addColorStop(1,"rgba(0,0,0,0)");g.fillStyle=gr;g.fillRect(0,0,128,128);return new THREE.CanvasTexture(cv);}
+  const halo=new THREE.Sprite(new THREE.SpriteMaterial({map:radial(4,"rgba(226,183,107,.55)"),transparent:true,blending:THREE.AdditiveBlending,depthWrite:false}));
+  halo.scale.set(6,6,1);halo.position.set(0,2.5,-3.0);back.add(halo);
+  const shadow=new THREE.Mesh(new THREE.PlaneGeometry(7.4,4.2),new THREE.MeshBasicMaterial({map:radial(6,"rgba(0,0,0,.55)"),transparent:true,depthWrite:false}));
+  shadow.rotation.x=-Math.PI/2;shadow.position.set(0,.012,-.3);back.add(shadow);
+  const dg=new THREE.BufferGeometry();const dp=new Float32Array(110*3);
+  for(let i=0;i<110;i++){dp[i*3]=(Math.sin(i*12.9898)*43758.5453%1)*15;dp[i*3+1]=.4+((i*37)%45)/10;dp[i*3+2]=-3.6-((i*13)%26)/10;}
+  dg.setAttribute("position",new THREE.BufferAttribute(dp,3));
+  const bokeh=new THREE.Points(dg,new THREE.PointsMaterial({color:C.goldB,size:.09,transparent:true,opacity:.5,depthWrite:false,blending:THREE.AdditiveBlending}));back.add(bokeh);
+
+  const TY=1.175;
+  const table=new THREE.Mesh(new THREE.BoxGeometry(5.6,.35,2.0),mat(C.plum,.7));table.position.y=1.0;front.add(table);
+  const trim=new THREE.Mesh(new THREE.BoxGeometry(5.62,.05,2.02),mat(C.gold,.4,.6));trim.position.y=1.16;front.add(trim);
+  [-2.4,2.4].forEach(x=>{const l=new THREE.Mesh(new THREE.BoxGeometry(.25,.85,1.6),mat(C.panel));l.position.set(x,.42,0);front.add(l);});
+  const skirt=new THREE.Mesh(new THREE.BoxGeometry(5.6,.5,.06),mat(C.top,.7));skirt.position.set(0,.72,1.0);front.add(skirt);
+
+  function label(){const cv=document.createElement("canvas");cv.width=cv.height=256;const tx=new THREE.CanvasTexture(cv);tx.anisotropy=4;return{cv,tx};}
+  function draw(L,n){const g=L.cv.getContext("2d"),h=38+((n*7)%29)-14;g.clearRect(0,0,256,256);g.fillStyle=`hsl(${h} 46% 62%)`;g.beginPath();g.arc(128,128,126,0,7);g.fill();g.strokeStyle="#251733";g.lineWidth=10;g.beginPath();g.arc(128,128,112,0,7);g.stroke();g.fillStyle="#251733";g.font="700 110px 'Space Mono', monospace";g.textAlign="center";g.textBaseline="middle";g.fillText(String(n),128,136);g.beginPath();g.arc(128,128,9,0,7);g.fill();L.tx.needsUpdate=true;}
+  function deck(x){
+    const g=new THREE.Group();g.position.set(x,TY,-.35);
+    const b=new THREE.Mesh(new THREE.BoxGeometry(1.35,.12,1.05),mat(0x2C1C3E,.7));b.position.y=.06;g.add(b);
+    const p=new THREE.Mesh(new THREE.CylinderGeometry(.5,.5,.05,28),mat(0x111016,.5,.4));p.position.y=.145;g.add(p);
+    const rec=new THREE.Mesh(new THREE.CylinderGeometry(.46,.46,.022,28),mat(C.vinyl,.45,.25));rec.position.y=.185;g.add(rec);
+    const L=label();const lm=new THREE.Mesh(new THREE.CylinderGeometry(.16,.16,.026,24),new THREE.MeshStandardMaterial({map:L.tx,roughness:.6}));lm.position.set(0,.012,0);rec.add(lm);
+    const pv=new THREE.Mesh(new THREE.CylinderGeometry(.05,.05,.14,10),mat(C.gold,.35,.7));pv.position.set(.52,.2,-.38);g.add(pv);
+    const ar=new THREE.Mesh(new THREE.CylinderGeometry(.018,.018,.62,8),mat(C.gold,.35,.7));ar.position.set(.36,.26,-.22);ar.rotation.set(.5,0,.9);g.add(ar);
+    front.add(g);return{rec,L,rest:.185};
+  }
+  const dA=deck(-1.35),dB=deck(1.35);draw(dA.L,1);draw(dB.L,2);
+  const mix=new THREE.Mesh(new THREE.BoxGeometry(1.35,.09,.95),mat(C.panel,.6));mix.position.set(0,TY+.045,-.3);front.add(mix);
+  for(let r=0;r<2;r++)for(let c=0;c<3;c++){const k=new THREE.Mesh(new THREE.CylinderGeometry(.045,.045,.05,10),mat(c===1?C.gold:C.top,.4,.5));k.position.set(-.35+c*.35,TY+.115,-.45+r*.22);front.add(k);}
+  const ft=new THREE.Mesh(new THREE.BoxGeometry(.7,.02,.06),mat(0x141018,.5));ft.position.set(0,TY+.1,-.05);front.add(ft);
+  const fader=new THREE.Mesh(new THREE.BoxGeometry(.09,.05,.12),mat(C.goldB,.35,.6));fader.position.set(-.3,TY+.13,-.05);front.add(fader);let faderT=-.3;
+  const onMat=new THREE.MeshStandardMaterial({color:C.plum,emissive:C.goldB,emissiveIntensity:.08,roughness:.5});
+  const onBox=new THREE.Mesh(new THREE.BoxGeometry(.9,.3,.1),onMat);onBox.position.set(0,3.05,-2.2);front.add(onBox);
+
+  let yaw=0,pitch=.32,yawT=0,pitchT=.32,rad=8,radT=8,nudge=0;
+  function place(){const y=yaw+nudge;cam.position.set(tgt.x+rad*Math.cos(pitch)*Math.sin(y),tgt.y+rad*Math.sin(pitch),tgt.z+rad*Math.cos(pitch)*Math.cos(y));cam.lookAt(tgt);}
+  const stage=$("stage");let drag=false,lx=0,ly=0;
+  stage.addEventListener("pointerdown",e=>{if(e.target.closest("button,input,label"))return;drag=true;lx=e.clientX;ly=e.clientY;try{stage.setPointerCapture(e.pointerId)}catch(err){}});
+  stage.addEventListener("pointermove",e=>{
+    if(!drag)return;const dx=e.clientX-lx,dy=e.clientY-ly;lx=e.clientX;ly=e.clientY;
+    if(Math.abs(dx)>Math.abs(dy)){
+      yawT=Math.max(-.38,Math.min(.38,yawT-dx*.0032));pitchT=Math.max(.18,Math.min(.46,pitchT+dy*.0016));
+      $("ctlOrbit").value=Math.round(yawT*100);$("vOrbit").textContent=Math.round(yawT*57.3)+"°";
+      if(state.reduced)once();
+    }
+  });
+  ["pointerup","pointercancel","pointerleave"].forEach(ev=>stage.addEventListener(ev,()=>drag=false));
+
+  let drop=null,raf=null,vis=true,last=performance.now();
+  const ease=x=>1+2.70158*Math.pow(x-1,3)+1.70158*Math.pow(x-1,2);
+  function lights(){
+    const g=booth.glow;keyB.intensity=KEY*g;keyF.intensity=KEY*g;glowB.intensity=GLOW*g;glowF.intensity=GLOW*g;
+  }
+  function frame(now){
+    raf=null;const dt=Math.min(.05,(now-last)/1000);last=now;
+    const t=TRACKS[state.i],beat=t.bpm/60,time=now/1000;
+    yaw+=(yawT-yaw)*.08;pitch+=(pitchT-pitch)*.08;rad+=(radT-rad)*.06;nudge*=.94;
+    fader.position.x+=(faderT-fader.position.x)*.1;place();
+    back.fog.density=booth.haze;lights();
+    if(state.playing){
+      (state.i%2===0?dA:dB).rec.rotation.y-=beat*Math.PI*2*dt*.22*booth.spin;
+      bokeh.rotation.y+=.0004;
+      if(t.slot==="PEAK"&&booth.pulse){const p=Math.max(0,Math.sin(time*beat*Math.PI*2));keyB.intensity*=1+.4*p;keyF.intensity*=1+.4*p;glowB.intensity*=1+.55*p;glowF.intensity*=1+.55*p;onMat.emissiveIntensity=1+.8*p;}
+      else onMat.emissiveIntensity=1.2;
+    }
+    if(drop){const k=Math.min(1,(now-drop.t0)/480);drop.d.rec.position.y=drop.d.rest+.85*(1-ease(k));if(k>=1){drop.d.rec.position.y=drop.d.rest;drop=null;}}
+    rB.render(back,cam);rF.render(front,cam);
+    if(vis&&!document.hidden&&!state.reduced)raf=requestAnimationFrame(frame);
+  }
+  function once(){place();fader.position.x=faderT;back.fog.density=booth.haze;lights();onMat.emissiveIntensity=state.playing?1.2:.08;onairL.intensity=state.playing?9:0;rB.render(back,cam);rF.render(front,cam);}
+  function start(){if(!raf&&!state.reduced){last=performance.now();raf=requestAnimationFrame(frame);}}
+  function stop(){if(raf){cancelAnimationFrame(raf);raf=null;}}
+  function resize(){
+    const w=stage.clientWidth,h=stage.clientHeight;if(!w||!h)return;
+    rB.setSize(w,h,false);rF.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix();
+    if(state.reduced)once();
+  }
+  new ResizeObserver(resize).observe(stage);
+  new IntersectionObserver(en=>{vis=en[0].isIntersecting;vis?start():stop();},{threshold:.05}).observe(stage);
+  document.addEventListener("visibilitychange",()=>document.hidden?stop():start());
+
+  state.three={
+    setTrack(i,anim){
+      const d=i%2===0?dA:dB;draw(d.L,i+1);faderT=i%2===0?-.3:.3;
+      if(anim){d.rec.position.y=d.rest+.85;drop={d,t0:performance.now()};nudge=i%2===0?-.06:.06;radT=+$("ctlZoom").value/10-.25;setTimeout(()=>radT=+$("ctlZoom").value/10,650);start();}
+      else{d.rec.position.y=d.rest;once();}
+    },
+    setPlaying(on){onairL.intensity=on?9:0;onMat.emissiveIntensity=on?1.2:.08;if(on)start();else if(state.reduced)once();},
+    orbit(v){yawT=v;if(state.reduced)once();},
+    zoom(v){radT=v;if(state.reduced)once();},
+    refresh(){if(state.reduced)once();}
+  };
+  resize();state.three.setTrack(state.i,false);state.three.setPlaying(state.playing);
+  cB.style.display="block";cF.style.display="block";$("fallback").classList.add("hidden");$("boothctl").hidden=false;
+  if(!state.reduced)start();else once();
+}
+
+function wireBooth(){
+  const deg=v=>Math.round(v*57.3)+"°";
+  $("ctlOrbit").addEventListener("input",e=>{const v=e.target.value/100;$("vOrbit").textContent=deg(v);if(state.three)state.three.orbit(v);});
+  $("ctlZoom").addEventListener("input",e=>{const v=e.target.value/10;$("vZoom").textContent=v.toFixed(1);if(state.three)state.three.zoom(v);});
+  $("ctlGlow").addEventListener("input",e=>{booth.glow=e.target.value/100;$("vGlow").textContent=booth.glow.toFixed(1)+"×";if(state.three)state.three.refresh();});
+  $("ctlHaze").addEventListener("input",e=>{booth.haze=e.target.value/1000;$("vHaze").textContent=booth.haze.toFixed(3);if(state.three)state.three.refresh();});
+  $("ctlSpin").addEventListener("input",e=>{booth.spin=e.target.value/100;$("vSpin").textContent=booth.spin.toFixed(1)+"×";});
+  $("ctlPulse").addEventListener("change",e=>booth.pulse=e.target.checked);
+  $("ctlRandom").addEventListener("click",()=>{
+    booth.glow=+(0.6+Math.random()*1.2).toFixed(2);booth.haze=+(Math.random()*.08).toFixed(3);booth.spin=+(0.5+Math.random()*1.4).toFixed(2);
+    $("ctlGlow").value=Math.round(booth.glow*100);$("vGlow").textContent=booth.glow.toFixed(1)+"×";
+    $("ctlHaze").value=Math.round(booth.haze*1000);$("vHaze").textContent=booth.haze.toFixed(3);
+    $("ctlSpin").value=Math.round(booth.spin*100);$("vSpin").textContent=booth.spin.toFixed(1)+"×";
+    const o=Math.round((Math.random()*76-38));$("ctlOrbit").value=o;$("vOrbit").textContent=deg(o/100);
+    if(state.three){state.three.orbit(o/100);state.three.refresh();}
+  });
+  $("ctlReset").addEventListener("click",()=>{
+    booth.glow=1;booth.haze=.048;booth.spin=1;booth.pulse=true;
+    $("ctlOrbit").value=0;$("vOrbit").textContent="0°";$("ctlZoom").value=80;$("vZoom").textContent="8.0";
+    $("ctlGlow").value=100;$("vGlow").textContent="1.0×";$("ctlHaze").value=48;$("vHaze").textContent="0.048";
+    $("ctlSpin").value=100;$("vSpin").textContent="1.0×";$("ctlPulse").checked=true;
+    if(state.three){state.three.orbit(0);state.three.zoom(8);state.three.refresh();}
+  });
+}
+
+reducedMQ.addEventListener?.("change",e=>{state.reduced=e.matches;$("stage").classList.toggle("playing",state.playing&&!state.reduced);if(state.three)state.three.setPlaying(state.playing);});
+
+initHost();buildTracklist();loadTrack(0,false);setPlaying(false);wireBooth();Music.init();
+$("nextBtn").addEventListener("click",()=>{next();setPlaying(true);});
+$("prevBtn").addEventListener("click",()=>{prev();setPlaying(true);});
+$("playBtn").addEventListener("click",()=>setPlaying(!state.playing));
+$("muteBtn").addEventListener("click",()=>{
+  state.sound=!state.sound;
+  const b=$("muteBtn");b.textContent="Sound: "+(state.sound?"ON":"OFF");b.setAttribute("aria-pressed",String(state.sound));
+  b.setAttribute("aria-label",state.sound?"Mute all sound":"Unmute sound");
+  Music.status();syncAudio();
+});
+$("dropNeedle").addEventListener("click",()=>{
+  $("booth").scrollIntoView({behavior:state.reduced?"auto":"smooth"});
+  loadTrack(0,false);
+  if(!state.sound){state.sound=true;const b=$("muteBtn");b.textContent="Sound: ON";b.setAttribute("aria-pressed","true");Music.status();}
+  setPlaying(true);
+});
+document.addEventListener("keydown",e=>{
+  if(e.target.matches("input,textarea,select")||e.metaKey||e.ctrlKey||e.altKey)return;
+  if(e.key==="ArrowRight"){e.preventDefault();next();setPlaying(true);}
+  if(e.key==="ArrowLeft"){e.preventDefault();prev();setPlaying(true);}
+});
+init3D();
+</script>
+</body>
+</html>

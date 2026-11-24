@@ -1,0 +1,6 @@
+{
+  "name": "The 2026 Business Storytelling Set",
+  "description": "The best business storytelling pieces of 2026, sequenced as a DJ set. Curated by Todd E Jones, Narrative Archeologist at Copyflight. Played by Marlowe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
