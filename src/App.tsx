@@ -40,7 +40,23 @@ function loadInitialSets(): SetTemplate[] {
     if (raw) {
       const parsed = JSON.parse(raw);
       if (Array.isArray(parsed) && parsed.length > 0) {
-        return parsed as SetTemplate[];
+        return (parsed as SetTemplate[]).map((set) => {
+          if (
+            set.id === COPYFLIGHT_DEFAULT_SET.id &&
+            set.tracks?.[1]?.title === "The Story Is the Strategy"
+          ) {
+            const nextTracks = [...set.tracks];
+            nextTracks[1] = { ...COPYFLIGHT_DEFAULT_SET.tracks[1] };
+            if (nextTracks[2]?.transition?.includes("If the story is the strategy")) {
+              nextTracks[2] = {
+                ...nextTracks[2],
+                transition: COPYFLIGHT_DEFAULT_SET.tracks[2].transition,
+              };
+            }
+            return { ...set, tracks: nextTracks };
+          }
+          return set;
+        });
       }
     }
   } catch {
